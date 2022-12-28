@@ -1,0 +1,27 @@
+<!-- $_SERVER['PHP_SELF']-->
+<form action="bienvenida.php" method="POST">
+	<fieldset>
+		Nombre:<input type="text" name="nombre"><br>
+		Apellido:<input type="text" name="apellido">
+		Edad:<select name="edad">
+		     <option></option>
+		     <option value="niño">1-10</option>
+		     <option value="adolescente">11-20</option>
+		     <option value="joven">21-30</option>
+		     <option value="adulto">31-40</option>
+		 </select><br>
+		 	</fieldset>
+		 	<fieldset>
+		 		Sexo:<br>
+		 		Hombre:<input type="radio" name="sexo" value="hombre">
+		 		Mujer: <input type="radio" name="sexo" value="mujer">
+		 	</fieldset>
+		 	<fieldset>
+		 		Aficiones: <br>
+		 		Programar <input type="checkbox" value="programar" name="aficiones[]">
+		 		Deporte <input type="checkbox" value="deporte" name="aficiones[]">
+		 		Cine <input type="checkbox" value="cine" name="aficiones[]">
+		 	</fieldset>
+		 	<input type="submit" name="Enviar" value="Enviar">
+	
+</form>

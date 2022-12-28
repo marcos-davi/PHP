@@ -1,0 +1,84 @@
+/*DAW_M07_ACT_06_Marcos_Davi_Carvalho_dos_Santos*/
+*{
+    font-family: 'Verdana';
+  }
+    html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /*display: flex;
+  flex-direction: column;
+  */
+
+}
+#volver{
+  float: inherit;
+  margin-left: 10px; 
+}
+
+
+  .widget{
+    float: left;
+    padding: 5px 25px;
+    max-width: 450px;
+    background-color: #f7f7f9;
+    border: 2px solid #d0d0d0;
+    border-radius: 6px;
+    margin-left: 10px;
+  }
+
+  .widget{
+    font-size: 10px;
+  }
+
+  .widget h2{
+    font-size: 22px;
+    color: #4f9fcf;
+  }
+
+  .widget h3{
+    font-size: 14px;
+  }
+
+  .widget b{
+    font-size: 12px;
+  }
+
+  .widget hr{
+    border-color: #d0d0d0;
+  }
+
+  .widget .content{
+    float: left;
+    width: 65%;
+    margin-right: 5%;
+  }
+
+  .widget .representation{
+    float: left;
+    width: 30%;
+  }
+
+  .widget .content-full{
+    float: left;
+    width: 100%;
+  }
+
+  .widget .half{
+    float: left;
+    width: 45%;
+    margin-bottom: 10px;
+  }
+  .widget .half:first-child{
+    margin-right: 5%;
+  }
+
+#map {
+  border-radius: 6px;
+  height: 50%;
+  width: 50%;
+}
+
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<in>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UF4_Tema6_actividad03</title>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h1>UF4_Tema6_actividad03</h1>
+    <p>
+        Programa utilizado el API Fetch una aplicación web con dos botones y un input.
+        Programa el primer boton para que al clicar pida al servidor que genere un número aleatorio entre 1 y 100 y lo almacene en una
+        variable de sesion.
+        Programa el segundo boton para que al clicar se envie al servidor el numero que el usuario haya introducido
+        dentro del input. El servidor
+        ha de comparar el valor introducido dentro del input con el almacenado en la variable de sesion y indicar si son
+        iguales, o el valor enviado es inferior o superior.
+        Puedes utilizar un PHP para generar el numero y otro para comprovar el numero.
+        Recuerda guardar el numero en una variable de sesion.
+        Utiliza el API Fetch con GET para pedir que genere el numero y el API Fetch con POST para comprovar el numero.
+    </p>
+    <button onclick="generaNumero()">
+        GENER NUMERO
+    </button>
+    <br />
+    <input type="number" id="numero" />
+
+    <button onclick="checkNumero()">
+        CHECK NUMERO
+    </button>
+
+    Info cliente <div id="respuesta"></div>
+
+</body>
+
+</html>

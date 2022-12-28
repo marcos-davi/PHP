@@ -1,0 +1,81 @@
+<!--1.	Crea un nuevo documento  HTML con el nombre “index.html y un nuevo JS con el nombre “actividad06.js”.  
+Vincula el HTML con el CSS y el JavaScript.-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Actividad06</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <script src="actividad06.js" defer></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<!-- 2.	Añade al HTML una estructura parecida a la mostrada en la imagen superior.  -->
+<body>
+    <form name="miForm">
+        <h2>Guardar Combinación</h2>
+        <div>
+            <div style="float: left">
+                <span id="1g2"></span><br />
+                <span id="1g1"></span><br />
+                <input type="text" name="gc" id="1g" onchange="input1('1g',1);" />
+            </div>
+
+            <div style="float: left">
+                <span id="2g2"></span><br />
+                <span id="2g1"></span><br />
+                <input type="text" name="gc" id="2g" onchange="input1('2g',2);" />
+            </div>
+
+            <div style="float: left">
+                <span id="3g2"></span><br />
+                <span id="3g1"></span><br />
+                <input type="text" name="gc" id="3g" onchange="input1('3g',3);" />
+            </div>
+            <div style="float: left">
+                <span id="4g2"></span><br />
+                <span id="4g1"></span><br />
+                <input type="text" name="gc" id="4g" onchange="input1('4g',4);" />
+                <br /><br />
+            </div>
+            <input type="button" value="Guardar Combinación" id="btnGC" onclick="guardarCombinacion();" />
+        </div>
+
+        <br /><br />
+        <div id="respuesta" style="color: red"></div>
+        <br /><br />
+
+        <h2>Check Combinación</h2>
+
+        <div>
+            <div style="float: left">
+                <span id="1c1"></span><br />
+                <input type="number" name="cc" id="1c" onchange="input2('1c',1);" />
+            </div>
+
+            <div style="float: left">
+                <span id="2c1"></span><br />
+                <input type="number" name="cc" id="2c" onchange="input2('2c',2);" />
+            </div>
+
+            <div style="float: left">
+                <span id="3c1"></span><br />
+                <input type="number" name="cc" id="3c" onchange="input2('3c',2);"/>
+            </div>
+
+            <div style="float: left">
+                <span id="4c1"></span><br />
+                <input type="number" name="cc" id="4c" onchange="input2('4c',2);" />
+                <br /><br />
+            </div>
+        </div>
+        <input type="button" value="Check Combinación" id="btnCC" onclick="checkCombinacion();" />
+        <br /><br />
+        <div id="respuestaChk" style="color: red"></div>
+        <br /><br />
+    </form>
+</body>
+
+</html>

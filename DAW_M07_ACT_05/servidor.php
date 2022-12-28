@@ -2,7 +2,7 @@
 require_once("lib/nusoap.php");
 //DAW_M07_ACT_05_MarcosDavi Carvalho Dos Santos
 
-$namespace = "http://localhost:8888/DAW_M07_ACT_05/servidor.php";
+$namespace = "http://localhost:8888/PHP/DAW_M07_ACT_05/servidor.php";
 $server = new soap_server();
 $server->configureWSDL("MiServicioWeb", $namespace);
 $server->schemTargetNamespace = $namespace;

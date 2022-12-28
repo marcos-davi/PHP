@@ -2,7 +2,7 @@
 require_once("lib/nusoap.php");
 $categoria = $_POST['categoria'];
 
-$client = new soapclient("http://localhost:8888/DAW_M07_ACT_05/servidor.php?wsdl");
+$client = new soapclient("http://localhost:8888/PHP/DAW_M07_ACT_05/servidor.php?wsdl");
 
 
 /*
